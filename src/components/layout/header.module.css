@@ -4,12 +4,10 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 1440px;
-    margin: 0 auto;
-    padding: 8px 24px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    z-index: 100;
 }
 
 .line {
@@ -18,12 +16,14 @@
     background-color: var(--text-color);
 }
 .topHeader {
-    width: 1200px;
-    margin: 0 auto; 
+    width: 1440px;
+    margin: 0 auto;
+    padding: 8px 24px;
     display: flex;
     flex-direction: row;    
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 0;
 }
 
 .logoContainer {
@@ -80,6 +80,9 @@
 }
 
 .bottomHeader {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px 8px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
