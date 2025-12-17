@@ -1,0 +1,40 @@
+.topProduct {
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.topProductTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title,
+.seeAll {
+    color: var(--green-color);
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.seeAll {
+    color: #73A5A2;
+}
+
+.topProductContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 236.54135131835938px;
+    gap: 8px;
+}
+
+.topProductContent > :first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+    
