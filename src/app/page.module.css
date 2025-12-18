@@ -22,3 +22,17 @@
   flex-direction: column;
   gap: 24px;
 }
+
+.brand {
+  width: 1185px;
+  margin: 0 auto;
+  padding: 10px 24px;
+}
+
+.brand ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
