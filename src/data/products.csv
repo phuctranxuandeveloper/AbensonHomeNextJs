@@ -1,0 +1,11 @@
+id,name,price,description,image,sold
+1,Modern Sofa,15999000,Comfortable 3-seater sofa with premium fabric upholstery,/products/product_1.png,156
+2,King Size Bed,12500000,Elegant king size bed with solid wood frame,/products/product_2.png,89
+3,Memory Foam Mattress,8999000,Premium memory foam mattress for better sleep,/products/product_3.png,234
+4,Sofa Bed,9500000,Convertible sofa bed perfect for small spaces,/products/product_4.png,67
+5,Leather Recliner,7999000,Genuine leather recliner with massage function,/products/product_5.png,112
+6,Dining Table Set,18500000,6-seater dining table with matching chairs,/products/product_6.png,45
+7,Office Chair,3999000,Ergonomic office chair with lumbar support,/products/product_7.png,321
+8,Coffee Table,2500000,Modern coffee table with tempered glass top,/products/product_1.png,198
+9,Wardrobe,14999000,Spacious 4-door wardrobe with mirror,/products/product_2.png,73
+10,Bookshelf,4500000,5-tier bookshelf with adjustable shelves,/products/product_3.png,145

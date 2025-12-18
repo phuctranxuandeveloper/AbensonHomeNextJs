@@ -1,0 +1,108 @@
+.bestSeller {
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.bestSellerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title,
+.seeAll {
+    color: var(--green-color);
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.seeAll {
+    color: #73A5A2;
+}
+
+.bestSellerBanner {
+    width: 530px;
+    height: 466px;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bestSellerBanner img {
+    object-fit: cover;
+}
+
+.bestSellerContent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nextButton {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.bestSellerCards {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    z-index: 2;
+    margin-left: -80px;
+    padding: 24px 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    flex: 1;
+    min-width: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.bestSellerCards::-webkit-scrollbar {
+    display: none;
+}
+
+.nextButton {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.nextButton:hover {
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
